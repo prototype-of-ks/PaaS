@@ -1,0 +1,24 @@
+// 侧边栏初始颜色
+$menuText: #bfcdb9;
+$menuActiveText: #409EFF;
+
+$menuBg: #304156;
+$menuHover: #263445;
+// 侧边栏宽度收缩前后宽度
+$sidebarWidth: 210px;
+$hidedSidebarWidth: 64px;
+// 头部导航条高度,页面很多布局以此为基础值
+$navbarHeight: 50px;
+
+:export {
+    menuText: $menuText;
+    menuActiveText: $menuActiveText;
+
+    menuBg: $menuBg;
+    menuHover: $menuHover;
+
+    sidebarWidth: $sidebarWidth;
+    hidedSidebarWidth: $hidedSidebarWidth;
+
+    navbarHeight: $navbarHeight
+}

@@ -1,0 +1,37 @@
+.navbar {
+    width: 100%;
+    height: $navbarHeight;
+    overflow: hidden;
+    position: fixed;
+    background-color: #fff;
+    box-shadow: 0 1px 4px rgba(0, 21, 41, .08);
+    z-index: 9;
+    display: flex;
+    align-items: center;
+    
+    .title {
+        padding: 0 8px;
+        margin: 0;
+        line-height: $navbarHeight;
+        display: inline-block;
+    }
+
+    /* 用户设置 */
+    .user-panel-container {
+        position: absolute;
+        right: 10%;
+    }
+
+    /* svg组件样式,可删除 */
+    .scale-container {
+        line-height: 57px;
+        height: 100%;
+        float: left;
+        cursor: pointer;
+        transition: background .3s;
+        
+        &:hover {
+            background-color: rgba(0, 0, 0, .025);
+        }
+    }
+}

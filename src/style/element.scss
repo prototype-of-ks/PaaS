@@ -1,0 +1,28 @@
+// element-plus一些私有样式重写
+// 注意加上私有作用域，否则影响后续组件默认样式
+.login-container {
+    .el-form {
+        .el-form-item__content {
+            line-height: 32px;
+        }
+    
+        .el-form-item__error {
+            padding-top: 0;
+            top: 84%;
+        }
+    }
+
+    .el-input {
+        .el-input__inner {
+            height: 32px;
+            line-height: 32px;
+        }
+    }
+}
+
+.scaling-menu-container {
+    .el-menu.el-menu--horizontal {
+        border-bottom: 0;
+    }
+}
+

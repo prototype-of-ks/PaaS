@@ -1,0 +1,42 @@
+{
+    "en": {
+        "login": {
+            "welcome": "Welcome!",
+            "phone": {
+                "placeholder": "phone number",
+                "errorMsg": "phone number is in the wrong format"
+            },
+            "password": {
+                "placeholder": "password",
+                "errorMsg": "password is required"
+            },
+            "rememberAccount": "Remember",
+            "forgotAccount": "forgot?",
+            "signin": "signin",
+            "loginBtn": "login",
+            "errorMsg": {
+                "login": "login error"
+            }
+        }
+    },
+    "zh": {
+        "login": {
+            "welcome": "欢迎登录",
+            "phone": {
+                "placeholder": "手机号",
+                "errorMsg": "手机号不为空或格式错误"
+            },
+            "password": {
+                "placeholder": "密码",
+                "errorMsg": "密码不为空"
+            },
+            "rememberAccount": "记住账号",
+            "forgotAccount": "忘记密码?",
+            "signin": "注册",
+            "loginBtn": "登录",
+            "errorMsg": {
+                "login": "登录失败"
+            }
+        }
+    }
+}
